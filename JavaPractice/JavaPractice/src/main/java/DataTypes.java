@@ -9,6 +9,7 @@ public class DataTypes {
         double f = 9.6357276718181983455678543357898643344567898D;
         boolean g = false; // Ether True or False
         char h = 'A';
+        float expo = 34e4F;
 
         System.out.println(a);
         System.out.println(b);
@@ -18,5 +19,6 @@ public class DataTypes {
         System.out.println(f);
         System.out.println(g);
         System.out.println(h);
+        System.out.println(expo);
     }
 }
