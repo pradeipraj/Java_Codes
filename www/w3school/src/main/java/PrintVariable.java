@@ -1,6 +1,4 @@
-import javax.sound.midi.Soundbank;
-import java.text.spi.DateFormatProvider;
-import java.util.Date;
+
 
 public class PrintVariable {
     public static void main (String [] args)
