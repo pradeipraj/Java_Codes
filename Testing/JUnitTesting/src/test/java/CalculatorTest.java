@@ -1,6 +1,5 @@
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CalculatorTest {
     @Test
@@ -79,6 +78,23 @@ class CalculatorTest {
         double expected = 4;
         Calculator calculator = new Calculator();
         double result = calculator.div(a, b);
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void testPer(){
+        Calculator calculator = new Calculator();
+        double per = calculator.per(450, 600, 100);
+        assertEquals(75, per);
+    }
+
+    @Test
+    public void testPerAll(){
+        double obtainedMarks = 450;
+        double totalMarks = 600;
+        double expected = 75;
+        Calculator calculator = new Calculator();
+        double result = calculator.per(obtainedMarks, totalMarks, expected);
         assertEquals(expected, result);
     }
 
