@@ -75,8 +75,8 @@ class CalculatorTest {
     @Test
     public void testDivDouble(){
         double a = 10;
-        double b = 3;
-        double expected = 3.3333333333333335;
+        double b = 2.5;
+        double expected = 4;
         Calculator calculator = new Calculator();
         double result = calculator.div(a, b);
         assertEquals(expected, result);

@@ -11,7 +11,7 @@ public class Main {
         int mul = calculator.mul(2,2);
         System.out.println("The Result is: " + mul);
 
-        double div = calculator.div(10,2);
+        double div = calculator.div(10,2.6);
         System.out.println("The Result is: " + div);
     }
 }
