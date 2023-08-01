@@ -24,4 +24,11 @@ public class Calculator {
         return num % 2 == 0;
     }
 
+    public int[] addToArray(int[] array, int numToAdd){
+        for (int i = 0; i < array.length; i++){
+            array[i] += numToAdd;
+        }
+        return array;
+    }
+
 }

@@ -106,4 +106,13 @@ class CalculatorTest {
         assertFalse(calculator.isEven(3));
     }
 
+    @Test
+    public void testAddToArray(){
+        Calculator calculator = new Calculator();
+        int[] array = {1,2,3};
+        int numToAdd = 2;
+        int[] result = calculator.addToArray(array, numToAdd);
+        assertNotNull(result);
+    }
+
 }
