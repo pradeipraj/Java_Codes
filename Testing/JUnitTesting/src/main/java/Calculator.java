@@ -20,4 +20,8 @@ public class Calculator {
         return (a/b)*100;
     }
 
+    public boolean isEven(int num){
+        return num % 2 == 0;
+    }
+
 }

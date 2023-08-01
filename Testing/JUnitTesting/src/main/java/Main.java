@@ -16,5 +16,8 @@ public class Main {
 
         double per = calculator.per(450, 600, 100);
         System.out.println("The Percentage is: " + per + "%");
+
+        boolean isEven = calculator.isEven(20);
+        System.out.println("This is an Even");
     }
 }

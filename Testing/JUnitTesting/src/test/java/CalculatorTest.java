@@ -1,5 +1,6 @@
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
     @Test
@@ -96,6 +97,13 @@ class CalculatorTest {
         Calculator calculator = new Calculator();
         double result = calculator.per(obtainedMarks, totalMarks, expected);
         assertEquals(expected, result);
+    }
+
+    @Test
+    public void testIsEven(){
+        Calculator calculator = new Calculator();
+        assertTrue(calculator.isEven(2));
+        assertFalse(calculator.isEven(3));
     }
 
 }
