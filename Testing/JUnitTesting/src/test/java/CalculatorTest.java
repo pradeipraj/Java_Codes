@@ -110,9 +110,10 @@ class CalculatorTest {
     public void testAddToArray(){
         Calculator calculator = new Calculator();
         int[] array = {1,2,3};
-        int numToAdd = 2;
+        int numToAdd = 6;
         int[] result = calculator.addToArray(array, numToAdd);
         assertNotNull(result);
+        assertArrayEquals(new int[] {7,8,9}, result);
     }
 
 }
