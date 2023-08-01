@@ -1,8 +1,21 @@
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
+
+    @BeforeEach
+    public void setup(){
+        System.out.println("Setting up new Tests for Calculators.");
+    }
+
+    @AfterEach
+    public void teardown(){
+        System.out.println("Tearing down after each tests done.");
+    }
+
     @Test
     public void testAdd(){
         Calculator calculator = new Calculator();
