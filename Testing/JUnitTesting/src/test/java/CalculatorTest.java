@@ -1,11 +1,19 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
     private Calculator calculator;
+
+    @BeforeAll
+    public static void setupAll(){
+        System.out.println("Setting up for once before test");
+    }
+
+    @AfterAll
+    public static void teardownAll(){
+        System.out.println("Tearing up for once after test");
+    }
 
     @BeforeEach
     public void setup(){
