@@ -140,4 +140,24 @@ class CalculatorTest {
         assertArrayEquals(new int[] {7,8,9}, result);
     }
 
+    @Test
+    public void testDivide(){
+        int dividend = 2;
+        int divisor = 2 ;
+        double expected = 1;
+        double result = calculator.devide(dividend, divisor);
+        assertEquals(expected, result);
+    }
+
+    @Test
+    public void testDivideException(){
+        int dividend = 2;
+        int divisor = 0;
+        double expected = 1;
+
+        Assertions.assertThrows(IllegalArgumentException.class, () ->{
+            calculator.devide(dividend, divisor);
+        });
+    }
+
 }

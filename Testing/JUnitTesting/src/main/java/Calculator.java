@@ -31,4 +31,11 @@ public class Calculator {
         return array;
     }
 
+    public double devide(int divident, int divisor){
+        if(divisor == 0){
+            throw new IllegalArgumentException("Can not divide by zero");
+        }
+        return (double) divident/divisor;
+    }
+
 }
