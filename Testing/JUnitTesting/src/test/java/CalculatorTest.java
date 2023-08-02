@@ -154,7 +154,6 @@ class CalculatorTest {
         int dividend = 2;
         int divisor = 0;
         double expected = 1;
-
         Assertions.assertThrows(IllegalArgumentException.class, () ->{
             calculator.devide(dividend, divisor);
         });
