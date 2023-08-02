@@ -6,16 +6,13 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 class CalculatorTest {
-
     @Test
-
-    public void testAdd(){
-        List mockedList = mock(List.class);
-        when(mockedList.size()).thenReturn(4);
-        int size = mockedList.size();
-
+    public void testMock(){
+        //Setting up Mock
+        List mockList = mock(List.class);
+        //Creating Stubbing
+        when(mockList.size()).thenReturn(10);
+        System.out.println(mockList.size());
 
     }
-
-
 }
