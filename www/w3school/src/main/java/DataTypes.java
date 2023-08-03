@@ -11,6 +11,10 @@ public class DataTypes {
         char h = 'A';//2-Bytes. Can refer ASCII table.
         char i = 127;
 
+        //Scientific Number
+        double j = 10e3;
+        double k = 10.4e3;
+
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -20,5 +24,7 @@ public class DataTypes {
         System.out.println(g);
         System.out.println(h);
         System.out.println(i);
+        System.out.println(j);
+        System.out.println(k);
     }
 }
