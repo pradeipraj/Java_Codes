@@ -1,5 +1,6 @@
 public class DataTypes {
     public static void main(String[] args) {
+
         byte a = 127; //Can store 1-Byte information i.e, 8-bits. Range: 256 i.e, -128 to 127
         short b = 32767; //Store 2-Bytes i.e, 16-bits. Range: -32,768 to 32,767
         int c = 2147483647; //Store 4-Bytes i.e, 32-bits. Range: -2,14,74,83,648 to 2,14,74,83,647
@@ -9,7 +10,6 @@ public class DataTypes {
         boolean g = false;//1-bit. Either TRUE or FALSE.
         char h = 'A';//2-Bytes. Can refer ASCII table.
         char i = 127;
-
 
         System.out.println(a);
         System.out.println(b);
