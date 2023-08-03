@@ -15,6 +15,9 @@ public class DataTypes {
         double j = 10e3;
         double k = 10.4e3;
 
+        //String
+        String Greet = "Good Morning";
+
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
@@ -26,5 +29,6 @@ public class DataTypes {
         System.out.println(i);
         System.out.println(j);
         System.out.println(k);
+        System.out.println(Greet);
     }
 }
