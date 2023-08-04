@@ -31,5 +31,9 @@ public class Strings {
 
         String backSlash = "The path is D\\\\:Folder\\Files\\";
         System.out.println(backSlash);
+
+        System.out.println("Hi, Good Morning\nHow are you?"); //\n Next line in one string statement
+        System.out.println("Hi, Good Morning\tHow are you?"); //\t Tab space will be added
+        System.out.println("Hi, Good Morning \bHow are you?"); //\b Backspace will be added
     }
 }
