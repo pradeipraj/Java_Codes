@@ -27,5 +27,9 @@ public class IfElase {
         String result = (batPrice >= 1000) ? "No Discount" : "Some Discount";
         System.out.println(result);
 
+        int a = 10;
+        int b = 11;
+        String out = (a>b) ? "a is smaller" : "b is bigger";
+        System.out.println(out);
     }
 }
