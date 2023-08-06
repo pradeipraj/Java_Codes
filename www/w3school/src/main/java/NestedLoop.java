@@ -20,5 +20,11 @@ public class NestedLoop {
                 System.out.println("Paragraph");
             }
         }
+
+        //For Each Loop
+        String [] cars = {"Triber", "Creta", "Venue", "Breeza"};
+        for (String a : cars){
+            System.out.println(a);
+        }
     }
 }
